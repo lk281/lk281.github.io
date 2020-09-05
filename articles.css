@@ -50,17 +50,16 @@ body {
 
 .articles_div{
   margin:auto;
-  width:300px;
-  height:300px;
-  margin-top: 250px;
+
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   text-align: center;
-  flex-direction: column;
+  flex-direction: row;
   display: flex;
-  padding-top:10px;
   gap:50px;
-
-
+  flex-wrap: wrap;
+  width:950px;
 }
 
 .article1_title{
@@ -68,9 +67,28 @@ body {
   color: white;
   text-align: center;
   text-decoration: none;
-  /* margin-top: 100px; */
-  /* margin:5px */
+  margin:15px;
+  width:250px;
+  margin:auto;
+}
 
+.article1 {
+  display: flex;
+  flex-direction: column;
+}
+.article2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.article3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.article4 {
+  display: flex;
+  flex-direction: column;
 }
 
 .article2_title{
@@ -78,8 +96,29 @@ body {
   color: white;
   text-align: center;
   text-decoration: none;
-  /* margin-top: 150px; */
-  margin:15px
+  width:250px;
+  margin:auto;
+  margin:15px;
+}
+
+.article3_title {
+  font-family: "Lucida Console", Courier, monospace;
+  color: white;
+    margin:auto;
+    width:250px;
+  text-align: center;
+  text-decoration: none;
+  margin:15px;
+}
+
+.article4_title {
+  font-family: "Lucida Console", Courier, monospace;
+  color: white;
+    margin:auto;
+    width:250px;
+  text-align: center;
+  text-decoration: none;
+  margin:15px;
 }
 img:hover {
   opacity:0.5;
@@ -89,8 +128,19 @@ img:hover {
   opacity:0.5;
 }
 
+.article2_title:hover{
+  opacity:0.5;
+}
+
+.article3_title:hover{
+  opacity:0.5;
+}
+
+.article4_title:hover{
+  opacity:0.5;
+}
+
 .page_title {
-  /* margin-top: -10px; */
   justify-content: center;
   text-align: center;
 }

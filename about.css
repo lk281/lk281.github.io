@@ -8,6 +8,7 @@
 body {
   background-color:#9395D3;
   color: white;
+  padding-bottom: 100px;
 
 }
 
@@ -68,10 +69,12 @@ a {
   justify-content: center;
   text-align: center;
   padding-top: 10px;
-  margin:auto;
+  /* margin:auto; */
   height:100px;
   width:500px;
   margin:auto;
+  padding-bottom: 100px;
+  margin:15px;
 
 }
 
@@ -79,4 +82,18 @@ h1{
   justify-content: center;
   text-align: center;
   font-family: "Lucida Console", Courier, monospace;
+}
+
+.bio {
+  justify-content: center;
+  font-family: "Lucida Console", Courier, monospace;
+  text-align: center;
+  height:100px;
+  width:500px;
+  margin:auto;
+  padding-bottom: 100px;
+}
+
+.content{
+  margin-top: -60px;
 }
