@@ -1,6 +1,10 @@
 .main-title {
     text-align: center;
     font-family: Verdana, Geneva, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:auto;
 
 }
 
@@ -163,4 +167,10 @@ padding-left: 80px;
 
 .memory_game2:hover {
   opacity: .5;
+}
+
+.moving_cane {
+  width:70px;
+  height:70px;
+  /* margin-top: -40px; */
 }

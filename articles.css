@@ -1,6 +1,10 @@
 .main-title {
     text-align: center;
     font-family: Verdana, Geneva, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:auto;
 
 }
 
@@ -131,6 +135,12 @@ img:hover {
 
 .article2_title:hover{
   opacity:0.5;
+}
+
+.moving_cane {
+  width:70px;
+  height:70px;
+  /* margin-top: -40px; */
 }
 
 .article3_title:hover{
