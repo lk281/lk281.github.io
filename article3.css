@@ -1,6 +1,6 @@
 .main-title {
     text-align: center;
-    font-family: "Lucida Console", Courier, monospace;
+    font-family: Verdana, Geneva, sans-serif;
 
 }
 
@@ -52,21 +52,21 @@ body {
   height:500px;
   width:500px;
   text-align: center;
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: Verdana, Geneva, sans-serif;
   color: white;
 
 }
 
 .title{
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 h1{
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 a {
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: Verdana, Geneva, sans-serif;
   color: white;
 }
 
@@ -89,4 +89,78 @@ padding-left: 80px;
 padding-left: 80px;
   justify-content: center;
   padding-bottom: 60px;
+}
+
+.puzzle {
+  margin-top: 20px;
+  width:300px;
+  height:200px;
+}
+
+.brain {
+  width:300px;
+  height:300px;
+  margin-top: -20px;
+  /* background: red; */
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-left: -300px;
+}
+
+.run {
+
+  width:250px;
+  height:250px;
+  margin-top: 10px;
+}
+
+.brain_container{
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.brain:hover{
+  opacity: .5;
+}
+
+.run:hover{
+  opacity: .5;
+}
+
+.run_container{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.puzzle_container {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.memory_game1 {
+  text-decoration: None;
+  margin-top: 20px;
+}
+
+.memory_game1:hover {
+  opacity: .5;
+}
+
+.memory_game2 {
+  text-decoration: None;
+  margin-top: 20px;
+}
+
+.memory_game2:hover {
+  opacity: .5;
 }

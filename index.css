@@ -1,7 +1,7 @@
 .main-title {
     text-align: center;
 
-    font-family: "Lucida Console", Courier, monospace;
+    font-family: Verdana, Geneva, sans-serif;
 
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 a {
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: Verdana, Geneva, sans-serif;
   color: white;
 }
 
@@ -57,13 +57,14 @@ a {
 }
 
 .middle{
-  margin-top: 80px;
+  margin-top:50px;
   justify-content: center;
   text-align: center;
+  padding-bottom: 100px;
 }
 .description{
 
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: Verdana, Geneva, sans-serif;
   /* margin-right: 75%; */
   justify-content: center;
   text-align: center;
@@ -73,4 +74,22 @@ a {
   width:500px;
   margin:auto;
 
+}
+
+.star_image{
+  width:400px;
+  height:300px;
+  margin-top: -22px;
+}
+
+.star_image2{
+  width:400px;
+  height:300px;
+  margin-top: -22px;
+}
+
+.pics {
+  display: flex;
+  flex-direction: row;
+  gap:50px;
 }

@@ -1,6 +1,6 @@
 .main-title {
     text-align: center;
-    font-family: "Lucida Console", Courier, monospace;
+    font-family: Verdana, Geneva, sans-serif;
 
 }
 
@@ -52,21 +52,21 @@ body {
   height:500px;
   width:500px;
   text-align: center;
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: Verdana, Geneva, sans-serif;
   color: white;
 
 }
 
 .title{
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 h1{
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 a {
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: Verdana, Geneva, sans-serif;
   color: white;
 }
 

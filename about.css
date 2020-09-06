@@ -1,7 +1,7 @@
 .main-title {
     text-align: center;
 
-    font-family: "Lucida Console", Courier, monospace;
+    font-family: Verdana, Geneva, sans-serif;
 
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 a {
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: Verdana, Geneva, sans-serif;
   color: white;
 }
 
@@ -64,7 +64,7 @@ a {
 }
 .description{
 
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: Verdana, Geneva, sans-serif;
   /* margin-right: 75%; */
   justify-content: center;
   text-align: center;
@@ -81,12 +81,12 @@ a {
 h1{
   justify-content: center;
   text-align: center;
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 .bio {
   justify-content: center;
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: Verdana, Geneva, sans-serif;
   text-align: center;
   height:100px;
   width:500px;
